@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  text-align: justify;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  /* overflow: auto; */
+}
+.antu_jhatu {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+}
+.first_section {
+  /* width: 15%; */
+  max-width: 27%;
+
+  /* background-color: #b09ce8; */
+  background: linear-gradient(#b09ce8, #e48bc8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  /* box-sizing: border-box; */
+}
+.first_section_upper {
+  /* background-color:#e48bc8; */
+  /* background:linear-gradient(#b09ce8,#e48bc8); */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+.first_section div img {
+  width: 250px;
+}
+.name {
+  margin-top: 250px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 35px;
+}
+.contact_details p {
+  font-size: 18px;
+}
+.my_certificates p {
+  font-size: 18px;
+}
+.Title {
+  margin-top: 320px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+}
+.my_links {
+  margin-top: 295px;
+  position: absolute;
+  font-size: 21px;
+}
+a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: rgb(0, 0, 0);
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5,
+.line6,
+.line7 {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+.line4,
+.line5,
+.line6,
+.line7 {
+  margin-bottom: 20px;
+}
+.contact_details {
+  /* position: absolute; */
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.small_container {
+  margin-top: 15px;
+}
+.skill_details {
+  /* position: absolute; */
+  /* margin-top: 250px; */
+  margin-top: 32px;
+  /* width: 100%; */
+  max-width: 250px;
+}
+
+/* skills */
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 2px;
+}
+
+.skill-bar {
+  background-color: #aedefc;
+  height: 20px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #f65696;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.my_certificates {
+  margin-top: 30px;
+}
+.line3 {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .first_section {
+    width: 30%;
+    /* height: 100%; */
+  }
+}
+
+.second_section {
+  width: 73%;
+  background-color: #fee9e9;
+  margin-left: 0;
+  /* margin-right: 2px; */
+}
+.my_objective,
+.my_work_experience,
+.my_projects,
+.my_educatiion {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+
+  /* text-align: justify; */
+}
+li {
+  margin-bottom: 15px;
+}
+
+/* .my_objective,.my_work_experience,.my_projects,.my_educatiion h3{
+  font-size: 24px;
+} */
+div #baseline {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 2px;
+  padding: 0;
+}
+div #baseline p {
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.second_section p {
+  font-size: 21px;
+}
+.second_section h3 {
+  font-size: 30px;
+}
+.first_section p {
+  font-size: 21px;
+}
+.first_section h2 {
+  font-size: 30px;
+}
