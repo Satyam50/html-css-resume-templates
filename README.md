@@ -12,4 +12,5 @@ With my Resume Templates, you can create a professional online presence that lea
 
 Explore my Resume Templates repository, offering modern HTML/CSS designs. Elevate your job search with customizable, professional resumes. From minimalistic to creative styles, find the perfect template. Stand out in the job market by showcasing your skills uniquely. Start crafting your impactful resume today!
 
-![Alt Text](resume screenshot.jpg)
+![Resume Screenshot](resume_screenshot.jpg)
+
